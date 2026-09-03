@@ -4,6 +4,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: steelblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 ul li a {
@@ -13,6 +16,7 @@ ul li a {
     text-align: center;
     padding: 20px 26px;
     text-decoration: none;
+    font-family: Abel, sans-serif;
 }
 
 ul li a:hover {
@@ -29,17 +33,18 @@ h1 {
 
 ul li h3 {
     display: block;
-    color: silver;
+    color: azure;
     padding: 20px 26px;
     text-align: center;
     float: left;
     margin: 0;
+    font-family: Abel, sans-serif;
 
 }
 
 body {
     background-color: white;
-    font-family: Tahoma;
+    margin: 0;
 
 }
 
@@ -47,9 +52,45 @@ body {
     font-size: 100px;
     width: auto;
     height: 600px;
-    margin: auto;
+    margin: 0;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+}
+
+.pluh{
+    background-color: steelblue;
+    width: auto;
+    height: 500px;
+    margin: 0;
+
+}
+
+.pluh h1 {
+    text-align: left;
+    color: azure;
+    padding: 200px 10px 10px 60px;
+    font-family: abel, sans-serif;
+    font-size: 50px;
+    margin: 0;
+
+}
+
+.team {
+    background-color: black;
+    width: auto;
+    height: 600px;
+    margin: 0;
+}
+
+.team h2{
+    text-align: center;
+    color: lightsteelblue;
+    font-family: Abel, sans-serif;
+    padding: 50px ;
+    font-size: 40px;
+    margin: 0;
 }
