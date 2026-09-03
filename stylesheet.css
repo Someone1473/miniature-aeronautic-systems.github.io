@@ -20,8 +20,8 @@ ul li a:hover {
 }
 
 h1 {
-    color: black;
-    font-size: 50px;
+    color: silver;
+    font-size: 100px;
     text-align: center;
     padding: 20px;
     font-family: Abel, sans-serif;
@@ -43,9 +43,24 @@ body {
 
 }
 
-div {
+.idk {
+    font-size: 100px;
     width: auto;
-    height: 800px;
+    height: 600px;
     margin: auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li a h3 {
+    display: block;
+    color: silver;
+    padding: 20px 26px;
+    text-align: center;
+    float: left;
+    margin: 0;
+}
+ul li a h3:hover {
+    background-color: black;
 }
