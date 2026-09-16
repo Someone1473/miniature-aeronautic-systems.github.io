@@ -188,3 +188,63 @@ ul li a h3:hover {
     color: azure;
     font-family: Abel, sans-serif;
 }
+
+.about{
+    font-size: 100px;
+    width: auto;
+    height: 400px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about h1{
+    margin: 0;
+}
+
+.about h2{
+    text-align: center;
+    color: silver;
+    font-family: Abel, sans-serif;
+    font-size: 30px;
+    display: block;
+    margin-top: 20px;
+
+
+}
+
+.goals {
+    background-color: steelblue;
+    width: auto;
+    height: 900px;
+    margin: 0;
+}
+
+.goals h2{
+    text-align: left;
+    color: white;
+    font-family: Abel, sans-serif;
+    padding: 70px 0 0 60px;
+    font-size: 50px;
+    margin: 0;
+}
+
+.organisation {
+    background-color: black;
+    width: auto;
+    height: 900px;
+    margin: 0;
+}
+
+.organisation h2{
+    text-align: left;
+    color: white;
+    font-family: Abel, sans-serif;
+    padding: 70px 0 0 60px;
+    font-size: 50px;
+    margin: 0;
+}
+
