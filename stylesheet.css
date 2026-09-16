@@ -19,6 +19,21 @@ ul li a {
     font-family: Abel, sans-serif;
 }
 
+ul li a.logo {
+    float: left;
+}
+
+ul li a.logo h3{
+    display: block;
+    color: azure;
+    padding: 0;
+    text-align: center;
+    float: left;
+    margin: 0;
+    font-family: Abel, sans-serif;
+
+}
+
 ul li a:hover {
     background-color: black;
 }
@@ -31,16 +46,7 @@ h1 {
     font-family: Abel, sans-serif;
 }
 
-ul li h3 {
-    display: block;
-    color: azure;
-    padding: 20px 26px;
-    text-align: center;
-    float: left;
-    margin: 0;
-    font-family: Abel, sans-serif;
 
-}
 
 body {
     background-color: white;
@@ -72,18 +78,31 @@ body {
 .pluh h1 {
     text-align: left;
     color: azure;
-    padding: 200px 10px 10px 60px;
+    padding: 130px 10px 10px 60px;
     font-family: abel, sans-serif;
     font-size: 50px;
     margin: 0;
 
 }
 
+.pluh p {
+
+    text-align: left;
+    padding: 40px 10px 10px 60px;
+    color: azure;
+    font-family: Abel, sans-serif;
+    font-size: 20px;
+
+
+}
+
 .team {
     background-color: black;
     width: auto;
-    height: 600px;
+    height: 500px;
     margin: 0;
+    text-align: center;
+    padding: 50px;
 }
 ul li a h3 {
     display: block;
@@ -102,6 +121,70 @@ ul li a h3:hover {
     color: lightsteelblue;
     font-family: Abel, sans-serif;
     padding: 50px ;
-    font-size: 40px;
+    font-size: 50px;
     margin: 0;
+}
+
+
+.us {
+    background-color: black;
+    width: auto;
+    height: 900px;
+    margin: 0;
+}
+
+.us h2{
+    text-align: left;
+    color: white;
+    font-family: Abel, sans-serif;
+    padding: 70px 0 0 60px;
+    font-size: 50px;
+    margin: 0;
+}
+
+.do {
+    background-color: black;
+    width: auto;
+    height: 900px;
+    margin: 0;
+}
+
+.do h2{
+    text-align: left;
+    color: white;
+    font-family: Abel, sans-serif;
+    padding: 70px 0 0 60px;
+    font-size: 50px;
+    margin: 0;
+}
+
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.person {
+    width: 200px;
+}
+
+.person img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.person h3 {
+    margin-bottom: 5px;
+    color: azure;
+    font-family: Abel, sans-serif;
+}
+
+.person p {
+    margin-top: 0;
+    color: azure;
+    font-family: Abel, sans-serif;
 }
